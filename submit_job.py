@@ -33,8 +33,10 @@ _WINDOWS_RESERVED = {
 MODEL_OPTIONS = {
     # gemini-3.6-flash is retained only for transcription, so its OCR quality can be
     # compared against 3.7 on real material; 3.7's published gains are coding/agentic.
+    # gemini-3.8-flash added 21 October 2026 (Mark): the Archivault site's default,
+    # its name as the job record gives it (job 1550a23c).
     "transcription": [
-        "gemini-3.1-pro-preview", "gpt-5.6-terra", "gemini-3.7-flash", "gemini-3.6-flash",
+        "gemini-3.1-pro-preview", "gpt-5.6-terra", "gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash",
         "gemini-3.5-flash-lite", "gpt-5.6-luna"
     ],
     "captioning": [
